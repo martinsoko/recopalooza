@@ -11,6 +11,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
   width: 100%;
   height: auto;
 }
+
 </style>
 <body class="w3-light-grey">
 
@@ -23,7 +24,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 <!-- Header -->
 <header class="w3-container w3-center w3-padding-32"> 
   <h1><img src="https://www.lollapaloozaar.com/wp-www-lollapaloozaar-com/wp/wp-content/uploads/2018/07/argentinaAsset-1-fd2f69f1.svg" class="responsive_image w3-content"></img></h1>
-  <p>Sistema de recomendación para el Lollapalooza Argentina 2020</p>
+  <h2>Sistema de recomendación para el Lollapalooza Argentina 2020</h2>
 </header>
 
 <!-- Grid -->
@@ -31,16 +32,85 @@ and is wrapped around the whole page content, except for the footer in this exam
 
 <!-- Blog entries -->
 <div class="responsive">
+  
   <!-- Blog entry -->
   <div class="w3-card-4 w3-margin w3-white">
     <div class="w3-container">
-      <h3><b>Análisis de géneros musicales</b></h3>
-      <h5>Estudiando el festival</h5>
+      <h3><b>Formulación del problema</b></h3>
+      <h5>Etapa 0</h5>
     </div>
 
     <div class="w3-container">
-      <p>Acá hicimos un análisis de todos los géneros blablabla.<span class="w3-tag">agregar chamuyo</span></p>
+      <p>La etapa inicial en todo sistema que involucre técnicas de Machine Learning, como este sistema de recomendación, consiste en definir el objetivo del proyecto y plantear las preguntas que se quieren responder.</p>
+			<p>¿Cuál es el roadmap que más me va a gustar en el Lollapalooza Argentina 2020?</p>
+			<p>Una vez definida la pregunta motivadora del proyecto, surgen naturalmente otras preguntas relacionadas que servirán para definir el enfoque que se le dará al problema</p>
+			<p>
+				<ul>
+					<li>¿Qué datos necesito para realizar la recomendación?</li>
+					<li>¿Qué datos tengo?</li>
+					<li>¿Qué datos me faltan?</li>
+					<li>¿Cómo los obtengo?</li>
+				</ul>
+			</p>
+			<p>Vamos por partes...</p>
+			<p><span style="font-weight:bold">¿Qué datos necesito? </span>Para armar un sistema de recomendación es necesario contar con información relacionada al objeto a recomendar (películas, canciones, recetas, o artistas, como en este caso) y datos que permitan caracterizar los gustos de cada usuario para hacer una recomendación personalizada y que sea acorde a las preferencias de cada persona.</p>
+			<p><span style="font-weight:bold">¿Qué datos tengo? </span>Los datos con los que contamos son los propios del festival: el lineup y las fechas en las que tocarán los más de 100 artistas que participarán en el festival.</p>
+			<p><span style="font-weight:bold">¿Qué datos me faltan? </span>Los datos que nos faltan son los que permitirán caracterizar con distintos atributos a cada artista y a cada usuario con sus gustos musicales y sus expectaticas para el festival.</p>
+			<p><span style="font-weight:bold">¿Cómo los obtengo? </span> Esta pregunta puede tener diversas respuestas. Para la información relacionada a los usuarios se confeccionará un cuestionario con preguntas que permitan conocer los aspectos claves que condicionarán las recomendaciones. Para la información relacionada a los distintos artistas, se realizarán consultas automatizadas con supervisión manual a diversos sitios que contengan información de distintas características de los artistas, como Spotify y Wikipedia. </p>
+    </div>
+  </div>
+  <!-- END Blog entry -->
+
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+    <div class="w3-container">
+      <h3><b>Recolección de datos</b></h3>
+      <h5>Etapa 1</h5>
+    </div>
+
+    <div class="w3-container">
+      <p>Una vez definidos los datos que se utilizarán para el sistema de recomendación, debemos comenzar con la etapa de recolección de dichos datos.</p>
+			<p>Comenzaremos por caracterizar a cada artista por la información musical disponible en Spotify para luego complementarla con datos no musicales de diversas fuentes de información como Wikipedia.</p>
+			<img src="https://developer.spotify.com/assets/branding-guidelines/logo@2x.png" width="300px"></img>
+			<p>Spotify cuenta con un conjunto de herramientas para desarrolladores que permiten realizar consultas y obtener información sobre los distintos artistas, álbumes y canciones de cada uno. Aprovechando estas herramientas desarrollamos un programa que automatiza la descarga de información de los artistas que participarán en el festival y luego la combinamos con otras fuentes de información complementaria para mejorar la caracterización de cada participante. De cada artista se obtuvo:
+				<ul>
+					<li><span style="text-decoration: underline">Seguidores:</span> cantidad de usuarios siguiendo este artista.</li>
+					<li><span style="text-decoration: underline">Popularidad:</span> índice que indica cuán popular es un artista.</li>
+					<li><span style="text-decoration: underline">Géneros:</span> variedad de géneros musicales compuestos por el artista.</li>
+					<li><span style="text-decoration: underline">Artistas relacionados:</span> artistas que por afinidad musical u otros factores son "cercanos" o parecidos.</li>
+					<li><span style="text-decoration: underline">Géneros relacionados:</span> géneros compuestos por los artistas relacionados.</li>
+					<li><span style="text-decoration: underline">Top tracks:</span> pistas o canciones más conocidas.</li>
+					<li><span style="text-decoration: underline">Audio features:</span> características musicales de los top tracks de cada artista, entre los que se destacan</li>
+					<ul>
+						<li><i>Acousticness:</i> medida de confianza que indica si un track es acústico o no.</li>
+						<li><i>Daceability:</i> medida de cuán "bailable" es un tema basándose en el tempo, ritmo, estabilidad y otros factores musicales.</li>
+						<li><i>Energy:</i> nivel que indica la percepción de intensidad y actividad de la canción.</li>
+						<li><i>Instrumentalness:</i> medida de la instrumentalidad de una canción en relación con la utilización de la voz.</li>
+						<li><i>Loudness:</i> nivel del sonido en dB.</li>
+						<li><i>Speechiness:</i> nivel de palabras habladas en la canción en relación a la música.</li>
+						<li><i>Valence:</i> medida de la "positividad" de la canción.</li>
+						<li><i>	Tempo:</i> duración del pulso en la canción.</li>
+					</ul>
+					<li><span style="text-decoration: underline">Nacionalidad:</span> país de origen.</li>
+					<li><span style="text-decoration: underline">First release:</span> año del primer lanzamiento del artista</li>
+
+				</ul>			
+			</p>
+    </div>
+  </div>
+  <!-- END Blog entry -->
+
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+    <div class="w3-container">
+      <h3><b>Análisis descriptivo y exploratorio (EDA)</b></h3>
+      <h5>Etapa 2</h5>
+    </div>
+
+    <div class="w3-container">
+      <p>Una vez finalizada la etapa de adquisición de datos, comienza la etapa de exploración y análisis descriptivo de los mismos. Aquí realizamos diversos análisis para estudiar la composición musical del festival, estudiamos los géneros más representados y la proporción de los mismos, caracterizamos a los artistas basándonos en los atributos musicales de sus <i>top tracks</i>, su año y lugar de creación y toda la información recolectada.</p>
       <img src='img/wordcloud-lolla.png' class="responsive_image"></img>
+			<h5>Análisis de géneros musicales</h5>
       <p>También lo hicimos separado por día</p>
       <p>Día 1</p>
       <img src='img/wordcloud-lolla.png' class="responsive_image"></img>
@@ -57,8 +127,8 @@ and is wrapped around the whole page content, except for the footer in this exam
   <!-- Blog entry -->
   <div class="w3-card-4 w3-margin w3-white">
     <div class="w3-container">
-      <h3><b>Análisis de atributos musicales</b></h3>
-      <h5>Top tracks de Spotify</h5>
+      <h3><b>Aprendizaje automático no supervisado</h3>
+      <h5>Etapa 3</h5>
     </div>
 
     <div class="w3-container">
