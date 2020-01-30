@@ -108,17 +108,37 @@ and is wrapped around the whole page content, except for the footer in this exam
     </div>
 
     <div class="w3-container">
-      <p>Una vez finalizada la etapa de adquisición de datos, comienza la etapa de exploración y análisis descriptivo de los mismos. Aquí realizamos diversos análisis para estudiar la composición musical del festival, estudiamos los géneros más representados y la proporción de los mismos, caracterizamos a los artistas basándonos en los atributos musicales de sus <i>top tracks</i>, su año y lugar de creación y toda la información recolectada.</p>
-      <img src='img/wordcloud-lolla.png' class="responsive_image"></img>
+      <p>Una vez finalizada la etapa de adquisición de datos, comienza la etapa de exploración y análisis descriptivo de los mismos. Aquí realizamos diversos análisis para estudiar la composición musical del festival, estudiamos los géneros más representados, caracterizamos a los artistas basándonos en los atributos musicales de sus <i>top tracks</i>, el año de su primer lanzamiento y si son artistas nacionales o internacionales.</p>
 			<h5>Análisis de géneros musicales</h5>
-      <p>También lo hicimos separado por día</p>
-      <p>Día 1</p>
-      <img src='img/wordcloud-lolla.png' class="responsive_image"></img>
-      <p>Día 2</p>
-      <img src='img/wordcloud-lolla.png' class="responsive_image"></img>
+			<img src='img/wordcloud-lolla.png' class="responsive_image"></img>
+      <p>Para cada día se confeccionó una <i>Word Cloud</i>, donde se visualizan todos los géneros representados, siendo los más visibles los que mayor presencia tienen en ese día en particular.</p>
+      <h5>Día 1</h5>
+			<p>El primer día del festival tiene como artistas principales a <b>Travis Scott</b> y a <b>Martin Garrix</b>, ambos pertenecientes al top five de seguidores en todo el festival.</p> 
+			<p>Cuenta con la participación de varios artistas y bandas nacionales, siendo este el día con mayor representación local con un <b>40%</b> del line up del día y <b>60%</b> de géneros en español.</p>
+      <img src='img/wordcloud-lolla-day-1.png' class="responsive_image" style="max-width:80%; margin-left:auto; margin-right:auto; display:block"></img>
+			<iframe src="img/genres-and-arg-dist-day-1.html" style="width:1000px; height:600px; margin-left:auto; margin-right:auto; display:block; border:none; "></iframe>
+      <h5>Día 2</h5>
+			<p>El segundo día del festival tiene como artistas principales a <b>The Strokes</b> y a <b>Gwen Stefani</b>, que tienen una popularidad similar a la de <b>Armin Van Bureen</b>, quienes se ubican en la segunda mitad del top ten de popularidad.<p>
+			<p>En cuanto a géneros, tenemos una gran presencia de bandas de Pop </p>
+      <img src='img/wordcloud-lolla-day-2.png' class="responsive_image" style="max-width:80%; margin-left:auto; margin-right:auto; display:block"></img>
       <p>Día 3</p>
-      <img src='img/wordcloud-lolla.png' class="responsive_image"></img>
+      <img src='img/wordcloud-lolla-day-3.png' class="responsive_image" style="max-width:80%; margin-left:auto; margin-right:auto; display:block"></img>
       
+			<h5>Tiempo y lugar de aparición</h5>
+			<p>Así se distribuyen las bandas basándonos en el año de su primer lanzamiento y el origen de </p>
+			<span class="w3-tag">agregar gráficos</span>
+
+			<h5>Análisis de atributos musicales</h5>
+			<p>Si bien el género permite definir el tipo de música y las características de las canciones que compone un artista, esta caracterización no es demasiado específica y podemos encontrar canciones completamente diferentes que pertenecen a un mismo género. Por eso surge la necesidad de realizar un análisis que sea exclusivamente basado en características musicales, sin tener en cuenta a qué género pertenecen. En los <i>radar plots</i> que se muestran a continuación se ve la caracterización musical de los top tracks de los artistas de cada día.</p>
+			<p>Día 1</p>
+      <iframe src="img/radar-plot-day_1.html" style="border:none;" height=800 width=1000 scrolling="no">
+        </iframe>
+      <p>Día 2</p>
+      <iframe src="img/radar-plot-day_2.html" style="border:none;" height=800 width=1000 scrolling="no">
+        </iframe>
+      <p>Día 3</p>
+      <iframe src="img/radar-plot-day_3.html" style="border:none;" height=800 width=1000 scrolling="no">
+        </iframe>
     </div>
   </div>
   <!-- END Blog entry -->  
@@ -134,15 +154,7 @@ and is wrapped around the whole page content, except for the footer in this exam
     <div class="w3-container">
       <p>Hicimos el análisis de los top tracks de cada banda en Spotify y....<span class="w3-tag">agregar chamuyo</span></p>
       <p>También lo hicimos separado por día</p>
-      <p>Día 1</p>
-      <iframe class="w3-content" src="img/radar-plot-day_1.html" style="border:none;" height=800 width=1000>
-        </iframe>
-      <p>Día 2</p>
-      <iframe src="img/radar-plot-day_2.html" style="border:none;" height=800 width=1000>
-        </iframe>
-      <p>Día 3</p>
-      <iframe src="img/radar-plot-day_3.html" style="border:none;" height=800 width=1000>
-        </iframe>
+
       
     </div>
   </div>
