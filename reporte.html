@@ -109,7 +109,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 
     <div class="w3-container">
       <p>Una vez finalizada la etapa de adquisición de datos, comienza la etapa de exploración y análisis descriptivo de los mismos. Aquí realizamos diversos análisis para estudiar la composición musical del festival, estudiamos los géneros más representados, caracterizamos a los artistas basándonos en los atributos musicales de sus <i>top tracks</i>, el año de su primer lanzamiento y si son artistas nacionales o internacionales.</p>
-			<h5>Análisis de géneros musicales</h5>
+			<h5 style="text-decoration: underline">Análisis de géneros musicales</h5>
 			<img src='img/wordcloud-lolla.png' class="responsive_image"></img>
       <p>Para cada día se confeccionó una <i>Word Cloud</i>, donde se visualizan todos los géneros representados, siendo los más visibles los que mayor presencia tienen en ese día en particular.</p>
       <h5>Día 1</h5>
@@ -119,26 +119,34 @@ and is wrapped around the whole page content, except for the footer in this exam
 			<iframe src="img/genres-and-arg-dist-day-1.html" style="width:1000px; height:600px; margin-left:auto; margin-right:auto; display:block; border:none; "></iframe>
       <h5>Día 2</h5>
 			<p>El segundo día del festival tiene como artistas principales a <b>The Strokes</b> y a <b>Gwen Stefani</b>, que tienen una popularidad similar a la de <b>Armin Van Bureen</b>, quienes se ubican en la segunda mitad del top ten de popularidad.<p>
-			<p>En cuanto a géneros, tenemos una gran presencia de bandas de Pop </p>
+			<p>En cuanto a géneros, tenemos una gran presencia de bandas de Pop, Rock moderno e Indie Pop.</p>
       <img src='img/wordcloud-lolla-day-2.png' class="responsive_image" style="max-width:80%; margin-left:auto; margin-right:auto; display:block"></img>
-      <p>Día 3</p>
-      <img src='img/wordcloud-lolla-day-3.png' class="responsive_image" style="max-width:80%; margin-left:auto; margin-right:auto; display:block"></img>
-      
-			<h5>Tiempo y lugar de aparición</h5>
-			<p>Así se distribuyen las bandas basándonos en el año de su primer lanzamiento y el origen de </p>
-			<span class="w3-tag">agregar gráficos</span>
+			<iframe src="img/genres-and-arg-dist-day-2.html" style="width:1000px; height:600px; margin-left:auto; margin-right:auto; display:block; border:none; "></iframe>
 
-			<h5>Análisis de atributos musicales</h5>
+      <h5>Día 3</h5>
+      <p>El tercer día tiene como artistas principales a <b>Guns N' Roses</b> y a <b>Lana del Rey</b> y es el día más internacional del festival, con más del <b>70%</b> de bandas extranjeras. Si bien <i>los Guns</i> son la segunda banda más popular del festival después de <b>Alan Walker</b>, quien también aparece en esta fecha, el Rock no está entre los géneros más representados del día.</p>
+      <img src='img/wordcloud-lolla-day-3.png' class="responsive_image" style="max-width:80%; margin-left:auto; margin-right:auto; display:block"></img>
+      <iframe src="img/genres-and-arg-dist-day-3.html" style="width:1000px; height:600px; margin-left:auto; margin-right:auto; display:block; border:none; "></iframe>
+
+			<h5 style="text-decoration: underline">Análisis de atributos musicales</h5>
 			<p>Si bien el género permite definir el tipo de música y las características de las canciones que compone un artista, esta caracterización no es demasiado específica y podemos encontrar canciones completamente diferentes que pertenecen a un mismo género. Por eso surge la necesidad de realizar un análisis que sea exclusivamente basado en características musicales, sin tener en cuenta a qué género pertenecen. En los <i>radar plots</i> que se muestran a continuación se ve la caracterización musical de los top tracks de los artistas de cada día.</p>
-			<p>Día 1</p>
       <iframe src="img/radar-plot-day_1.html" style="border:none;" height=800 width=1000 scrolling="no">
         </iframe>
-      <p>Día 2</p>
       <iframe src="img/radar-plot-day_2.html" style="border:none;" height=800 width=1000 scrolling="no">
         </iframe>
-      <p>Día 3</p>
       <iframe src="img/radar-plot-day_3.html" style="border:none;" height=800 width=1000 scrolling="no">
         </iframe>
+
+			<h5 style="text-decoration: underline">La música a través del tiempo</h5>
+			<p>Los artistas del festival son en su mayor parte artistas recientes:
+			<ul>
+				<li>El <b>45%</b> de ellos publicó su primer álbum entre el <b>2015 y el 2019</b>, encontrándose en este segmento a los artistas de <b>trap argentino</b>, de <b>indie</b> y <b>hip hop moderno</b></li>
+				<li>El <b>70%</b> lo hizo durante la <b>última década</b>. Ésta se caraterizó por la <b>música electrónica</b>, el <b>pop</b> y el <b>reggaetón</b>.</li>
+				<li>En el otro extremo, hay unos <b>6 artistas</b> que iniciaron su carrera <b>antes de la década de los '90</b>, entre los que predomina el <b>rock</b> como género característico.</li>
+			</ul>			
+			</p>
+			<iframe src="img/first-release-distribution.html" style="border:none;" height=800 width=1000 scrolling="no"></iframe>
+
     </div>
   </div>
   <!-- END Blog entry -->  
@@ -147,15 +155,18 @@ and is wrapped around the whole page content, except for the footer in this exam
   <!-- Blog entry -->
   <div class="w3-card-4 w3-margin w3-white">
     <div class="w3-container">
-      <h3><b>Aprendizaje automático no supervisado</h3>
+      <h3><b>Machine Learning: segmentación automática de artistas</b></h3>
       <h5>Etapa 3</h5>
     </div>
 
     <div class="w3-container">
-      <p>Hicimos el análisis de los top tracks de cada banda en Spotify y....<span class="w3-tag">agregar chamuyo</span></p>
-      <p>También lo hicimos separado por día</p>
-
-      
+      <p>
+			Una vez concluida la etapa de análisis descriptivo y exploratorio, utilizamos distintas técnicas de machine learning no supervisado para segmentar de manera automática (<i>clusterizar</i>) a todos los artistas que participarán del festival. Entre los métodos ensayados caben mencionar a los algoritmos <b>t-SNE</b>, <b>PCA</b> e <b>IsoMap</b> para <i>reducción de dimensionalidad</i> y distintos algoritmos de clustering como <b>k-Means</b>, <b>agglomerative clustering</b> y <b>DBSCAN</b> para segmentación.
+      </p>
+			<p>
+			Entre los resultados obtenidos, los más destacables fueron producidos por la conjunción de <b>t-SNE</b> y  <b>DBSCAN</b>, cuya representación gráfica se ve a continuación:
+			</p>
+			<iframe src="img/clusters.html" style="border:none;" height=800 width=1000 scrolling="no"></iframe>
     </div>
   </div>
   <!-- END Blog entry -->  
@@ -163,13 +174,24 @@ and is wrapped around the whole page content, except for the footer in this exam
   <!-- Blog entry -->
   <div class="w3-card-4 w3-margin w3-white">
     <div class="w3-container">
-      <h3><b>Clusterización de bandas</b></h3>
-      <h5>Algoritmos de aprendizaje automático no supervisados</h5>
+      <h3><b>Conclusiones</b></h3>
+      <h5>Etapas siguientes</h5>
     </div>
 
     <div class="w3-container">
-      <p>acá van los clusters y....<span class="w3-tag">agregar chamuyo</span></p>
-      
+      <p>Los datos sobre los artistas del Lollapalooza provenientes de Spotify y sus respectivas páginas en Wikipedia permiten no sólo caracterizar en términos descriptivos la oferta musical del festival, sino también realizar análisis de clusters interesantes. Estos análisis, que encuadramos dentro de lo que se conoce como machine learning no supervisado, permiten el descubrimiento de <i>insights</i> relevantes en una estructura de datos que, a priori, no son evidentes. La obtención de clusters que sean útiles para un sistema de recomendación es un primer paso necesario para el desarrollo de una herramienta de este tipo, pero no podemos limitarnos a esto sino que es necesario poder caracterizar correctamente a los espectadores para poder recomendarles un roadmap personalizado, que se ajuste a sus gustos y preferencias.
+			</p>
+			<p>Para lograr la caracterización de los usuarios, se utilizará una serie de preguntas a modo de cuestionario para conocer las preferencias musicales y otros aspectos de cada asistente. Como preguntas clave que consideramos necesarias podemos mencionar:
+			<p>
+			<ul>
+				<li>¿Qué edad tenés?</li>
+				<li>¿Qué bandas viniste a ver? (Máximo 3 bandas)</li>
+				<li>¿Cuántas ganas tenés de sorprenderte?</li>
+				<li>¿Qué tan seguido vas a festivales/recitales?</li>
+      </ul>
+		</p>
+		<p>Una vez obtenida la información de los asistentes, sumado al análisis realizado sobre los artistas y los clusters formados, se deberá confeccionar un conjunto de reglas que permitan armar un roadmap que se ajuste a los datos recolectados. Dichas reglas serán de índole musical y comercial y son necesarias para desarrollar el algoritmo de recomendación. 
+		</p>
     </div>
   </div>
   <!-- END Blog entry --> 
