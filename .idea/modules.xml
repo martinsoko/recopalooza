@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Blend/.idea/Blend.iml" filepath="$PROJECT_DIR$/../Blend/.idea/Blend.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/recopalooza.iml" filepath="$PROJECT_DIR$/.idea/recopalooza.iml" />
     </modules>
   </component>

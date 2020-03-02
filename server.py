@@ -16,7 +16,7 @@ def generate_roadmap():
 
 
 if __name__ == '__main__':
-    recommender = recopalooza.Recommender()
+    recommender = recopalooza.Recommender(clusters_file='artists_lolla.csv')
     app.run()
 
 

@@ -130,3 +130,5 @@ dmypy.json
 
 # Credentials
 credentials.txt
+
+*.zip

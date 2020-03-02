@@ -6,29 +6,21 @@ import argparse
 
 
 class Recommender:
-    # General attributes
-    artist_audio_feats_ = pd.DataFrame()
-    grid_ = pd.DataFrame()
-    clusters_ = pd.DataFrame()
-    verbosity_ = False
-    # User specific attributes
-    chosen_artists = []
-    chosen_clusters = pd.DataFrame()
-    feature_weights = []
-    shuffleness = 0
 
     def __init__(self, grid_file='horarios.csv',
-                 clusters_file='clusters.csv',
-                 audio_feats_file='artists_audio_feats.csv',
+                 data_file='data_recopalooza.csv',
                  verbosity=False):
         # Load necessary files
-        self.artist_audio_feats_ = pd.read_csv(audio_feats_file, index_col='artist')
-        self.clusters_ = pd.read_csv(clusters_file, index_col='artist')
+        self.data_ = pd.read_csv(data_file, index_col='artist')
         self.grid_ = pd.read_csv(grid_file)
         self.verbosity_ = verbosity
+        self.chosen_artists = []
+        self.chosen_clusters = pd.DataFrame()
+        self.feature_weights = []
+        self.shuffleness = 0
 
     def fill_slot(self, slot):
-        options = self.grid_.iloc[slot, 1: -1].dropna()
+        options = self.grid_.iloc[slot, 1:].dropna()
         if self.verbosity_:
             print('Choosing between ', options.tolist())
         # if an option is in the chosen bands
@@ -49,7 +41,7 @@ class Recommender:
     def get_roadmap(self, chosen_artists, feature_order, shuffleness):
         self.chosen_artists = chosen_artists
         self.feature_weights = feature_order
-        self.chosen_clusters = self.clusters_.loc[chosen_artists, 'cluster_name']. \
+        self.chosen_clusters = self.data_.loc[chosen_artists, 'cluster_name']. \
             value_counts().rename('cluster_weight')
         roadmap = []
         if len(chosen_artists) == 0:
@@ -69,7 +61,7 @@ class Recommender:
                 print('\tVoting based on chosen clusters...')
             # if there are options in the same clusters as the chosen artists' clusters,
             # all the chosen artists vote for their cluster
-            votes = pd.merge(self.clusters_.loc[options, 'cluster_name'],
+            votes = pd.merge(self.data_.loc[options, 'cluster_name'],
                              self.chosen_clusters,
                              left_on='cluster_name',
                              right_index=True,
@@ -110,22 +102,22 @@ class Recommender:
                 winner = np.random.choice(artists, p=softmax(1 - np.array(distances)))
             if self.verbosity_:
                 print('\t', winner, ' won')
-            return winner
         else:
             if self.verbosity_:
                 print('\tChoosing randomly between options')
             winner = np.random.choice(options)
             if self.verbosity_:
                 print('\t', winner, ' chosen')
+        return winner
 
     def distances_to_features(self, options):
         w = [1.0, 0.5, 0.25, 0.125]
         distances = []
         artists = []
         for option in options:
-            u = self.artist_audio_feats_.loc[option, self.feature_weights]
+            u = self.data_.loc[option, self.feature_weights]
             for chosen_artist in self.chosen_artists:
-                v = self.artist_audio_feats_.loc[chosen_artist, self.feature_weights]
+                v = self.data_.loc[chosen_artist, self.feature_weights]
                 distances.append(euclidean(u, v, w))
                 artists.append(option)
         return artists, distances
@@ -133,9 +125,15 @@ class Recommender:
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('-g', '--grid_file', required=False, help="Path to csv with the time grid")
-    parser.add_argument('-c', '--clusters_file', required=False, help="Path to csv with clusters")
-    parser.add_argument('-a', '--audio_feats_file', required=False, help='Path to csv with audio features')
+    parser.add_argument('-g', '--grid_file',
+                        required=False,
+                        help="Path to csv with the time grid",
+                        default='horarios.csv')
+    parser.add_argument('-d', '--data_file',
+                        required=False,
+                        help="Path to csv with artists data containing clusters and audio features",
+                        default='data_recopalooza.csv')
+    parser.add_argument('-v', '--verbose', required=False, help='Verbosity level', type=int, default=0)
     parser.add_argument('-r', '--artists', required=True, help='List of chosen artists', type=str)
     parser.add_argument('-f', '--audio_feats', required=True, help='Audio features sorted by preference', type=str)
     parser.add_argument('-s', '--shuffle', required=True, help='Shuffleness level', type=int)
@@ -144,6 +142,8 @@ if __name__ == '__main__':
     artists = [artist.strip() for artist in args.artists.split(',')]
     audio_feats = [feat.strip() for feat in args.audio_feats.split(',')]
 
-    reco = Recommender()
+    reco = Recommender(data_file=args.data_file,
+                       grid_file=args.grid_file,
+                       verbosity=args.verbose)
     roadmap = reco.get_roadmap(artists, audio_feats, args.shuffle)
     print(roadmap)
