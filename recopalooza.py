@@ -140,7 +140,12 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     artists = [artist.strip() for artist in args.artists.split(',')]
+    if len(artists) == 1 and artists[0] == '':
+        artists = []
     audio_feats = [feat.strip() for feat in args.audio_feats.split(',')]
+    if sorted(audio_feats) != ['acousticness', 'danceability', 'energy', 'valence']:
+        raise ValueError("Error in audio_feats. Should be 'acousticness', 'danceability', 'energy' and 'valence'"
+                         "in the chosen order.")
 
     reco = Recommender(data_file=args.data_file,
                        grid_file=args.grid_file,
