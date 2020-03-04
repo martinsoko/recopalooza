@@ -53,7 +53,7 @@ class Recommender:
             if self.verbosity_:
                 print('Filling slot ', i)
             roadmap.append(self.fill_slot(i))
-        return self.data_.loc[roadmap, ['day', 'is_argentinian', 'time']].reset_index().to_dict(orient='rectord')
+        return self.data_.loc[roadmap, ['day', 'time']].reset_index().to_dict(orient='rectord')
 
     def choose_among_options(self, options):
         if self.shuffleness != 2:
