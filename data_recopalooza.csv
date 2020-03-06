@@ -1,92 +1,93 @@
-artist,energy,danceability,valence,acousticness,cluster_name,day,is_argentinian,time,cluster_name_spanish
-A Day to Remember,0.9079,0.4463,0.4526,0.01209227,International indie & rock,1,0,???,Rock & Indie internacional
-Ainda,0.2828,0.5976,0.39895,0.7541,Argentinian indie,2,1,???,Indie en español
-Airbag,0.7816,0.4371,0.4093,0.03331606,Argentinian rock,3,1,???,Rock argentino
-AJR,0.6378,0.5945,0.5554,0.16627,International indie & rock,1,0,???,Rock & Indie internacional
-Alan Walker,0.6822,0.5669,0.3462,0.20684,EDM & house,3,0,???,Electrónica
-Alejo y Valentin,0.484,0.5127,0.26378,0.170499,Argentinian indie,1,1,???,Indie en español
-Amaia,0.43200000000000005,0.5438,0.2934,0.5889300000000001,Argentinian pop,2,0,???,Pop en español
-Armin Van Buuren,0.9009999999999999,0.5823,0.2511,0.022893,EDM & house,2,0,???,Electrónica
-Axel Fiks,0.5173,0.6970000000000001,0.43,0.2153551,Argentinian indie,1,1,???,Indie en español
-Bizarrap,0.6497,0.7997,0.6328,0.286464,Argentinian trap,1,1,???,Trap argentino
-Boombox Cartel,0.8426,0.6177,0.30964,0.098077,EDM & house,1,0,???,Electrónica
-Brockhampton,0.6064,0.7011,0.6048,0.43326000000000003,Hip hop & rap,1,0,???,Hip hop & rap
-Cage the Elephant,0.7865,0.5719,0.594,0.06138300000000001,International indie & rock,3,0,???,Rock & Indie internacional
-Charli XCX,0.7086,0.7598,0.5123,0.05583,International pop,2,0,???,Pop internacional
-Chris Lake,0.8881,0.7831,0.7028,0.0123039,EDM & house,3,0,???,Electrónica
-Cimafunk,0.6877,0.8216,0.7157,0.17601,Latin trap,1,0,???,Reggaeton & trap en español
-D3FAI,0.9724,0.6212,0.19784000000000002,0.01089829,EDM & house,2,0,???,Electrónica
-DABOW,0.7921,0.6809,0.26925,0.11948399999999999,EDM & house,3,1,???,Electrónica
-Dani,0.5935,0.723125,0.44075,0.32565,Argentinian trap,1,0,???,Trap argentino
-Denzel Curry,0.6563,0.7078,0.5482,0.170277,Hip hop & rap,1,0,???,Hip hop & rap
-DJ Sky,0.8752,0.7516,0.6106,0.050359100000000004,International indie & rock,1,0,???,Rock & Indie internacional
-DUKI,0.6837,0.7668,0.5048,0.3034,Argentinian trap,1,1,???,Trap argentino
-El Buen Salvaje,0.8548,0.5213,0.4145,0.044880500000000004,Argentinian indie,3,1,???,Indie en español
-El Mató a un Policía Motorizado,0.6208,0.4552,0.3824,0.12135,Argentinian rock,2,1,???,Rock argentino
-Elsa y Elmar,0.511,0.7189,0.5037,0.130143,Argentinian indie,3,0,???,Indie en español
-Emilia,0.7335,0.795,0.725,0.1452,Argentinian pop,3,1,???,Pop en español
-Emmanuel Horvilleur,0.6268,0.6748,0.5862,0.33323,Argentinian rock,2,1,???,Rock argentino
-Fabiana Cantilo,0.5567,0.6036,0.5632,0.37944,Argentinian rock,2,1,???,Rock argentino
-Feli Colina,0.3484,0.4728,0.2942,0.4841,Argentinian indie,1,1,???,Indie en español
-Florian,0.46866666666666706,0.685333333333333,0.644666666666667,0.27095,Argentinian indie,3,0,???,Indie en español
-Fuego,0.6472,0.7812,0.4843,0.163426,Latin trap,1,0,???,Reggaeton & trap en español
-Ghetto Kids,0.8108,0.7257,0.5589,0.0618477,Latin trap,2,0,???,Reggaeton & trap en español
-Girl Ultra,0.4478,0.7354,0.5933,0.5588,Latin trap,2,0,???,Reggaeton & trap en español
-Goldfish,0.7376,0.6732,0.4665,0.037416000000000005,EDM & house,3,0,???,Electrónica
-Guns N’ Roses,0.7632,0.3824,0.3587,0.094948,International indie & rock,3,0,???,Rock & Indie internacional
-Gwen Stefani,0.8069,0.7115,0.7024,0.096199,International pop,2,0,???,Pop internacional
-Hayley Kiyoko,0.7119,0.6509999999999999,0.4794,0.133269,International pop,2,0,???,Pop internacional
-Idles,0.9058,0.3745,0.3206,0.0016834,International indie & rock,3,0,???,Rock & Indie internacional
-ILLENIUM,0.7074,0.5547,0.3428,0.16079200000000002,EDM & house,2,0,???,Electrónica
-J mena,0.6873,0.8058,0.7031,0.12115,Argentinian pop,1,1,???,Pop en español
-Jaden Smith,0.732,0.5623,0.2859,0.16974,Hip hop & rap,2,0,???,Hip hop & rap
-James Blake,0.4508,0.5992,0.20181,0.5786813000000001,Art pop & R&B,3,0,???,R&B
-Kacey Musgraves,0.4511,0.5654,0.3693,0.52267,International pop,2,0,???,Pop internacional
-Kali Uchis,0.6517,0.6521,0.5511,0.26874000000000003,Art pop & R&B,2,0,???,R&B
-Kaydy Cain,0.6545,0.7699,0.7053,0.351579,Latin trap,1,0,???,Reggaeton & trap en español
-King Princess,0.5861,0.5933,0.4486,0.3696,International pop,1,0,???,Pop internacional
-La Delio Valdez,0.7229,0.6781,0.8285,0.41,Argentinian rock,1,1,???,Rock argentino
-Lana del Rey,0.418,0.4641,0.2339,0.601707,International pop,3,0,???,Pop internacional
-Las Ligas Menores,0.7964,0.3826,0.5447,0.04997324,Argentinian indie,2,1,???,Indie en español
-Lauv,0.5217,0.7011,0.4149,0.312525,International pop,3,0,???,Pop internacional
-LIMON,0.7182,0.5212,0.3701,0.01005659,Argentinian indie,2,0,???,Indie en español
-Litto Nebbia,0.4874,0.4879,0.4157,0.6189,Argentinian rock,2,1,???,Rock argentino
-Los Fabulosos Cadillacs,0.7631,0.6917,0.8163,0.157502,Argentinian rock,1,1,???,Rock argentino
-Louly,0.473,0.785,0.3916666666666671,0.3786666666666671,Argentinian trap,2,1,???,Trap argentino
-Louta,0.6899,0.7195,0.625,0.29475999999999997,Argentinian indie,1,1,???,Indie en español
-LP,0.642,0.5449,0.3666,0.238246,International indie & rock,1,0,???,Rock & Indie internacional
-Lucia Tacchetti,0.5358,0.6493,0.4584,0.56282,Argentinian indie,1,1,???,Indie en español
-Madeon,0.7404,0.4818,0.379,0.023818000000000002,EDM & house,1,0,???,Electrónica
-Martin Garrix,0.6256,0.5256,0.2674,0.17685,EDM & house,1,0,???,Electrónica
-Masego,0.5405,0.7329,0.4393,0.4001,Art pop & R&B,3,0,???,R&B
-Maye,0.643333333333333,0.609333333333333,0.673666666666667,0.4406666666666671,International indie & rock,1,0,???,Rock & Indie internacional
-MIKA,0.7078,0.6621,0.6203,0.13807,International pop,3,0,???,Pop internacional
-Miranda Johansen,0.436875,0.549875,0.2354875,0.294,Argentinian indie,3,1,???,Indie en español
-Ms Nina,0.8340000000000001,0.7224,0.6388,0.100022,Latin trap,1,1,???,Reggaeton & trap en español
-Natalie Perez,0.6418,0.5398,0.6729999999999999,0.39065,Argentinian pop,3,1,???,Pop en español
-Nathy Peluso,0.4299,0.5745,0.36293000000000003,0.35322,Latin trap,1,1,???,Reggaeton & trap en español
-Pabllo Vittar,0.7701,0.7363,0.6219,0.115969,International pop,3,0,???,Pop internacional
-Paco Leiva,0.37344,0.4775,0.22858,0.69433,Argentinian indie,2,1,???,Indie en español
-Paloma Mami,0.679333333333333,0.7715,0.446,0.24266666666666697,Latin trap,2,0,???,Reggaeton & trap en español
-Perry Farrell’s Kind Heaven Orchestra,0.7958,0.5636,0.4962,0.0504181,International indie & rock,3,0,???,Rock & Indie internacional
-R3HAB,0.7616,0.6375,0.4795,0.199134,EDM & house,2,0,???,Electrónica
-Ratones Paranoicos,0.8319,0.644,0.7288,0.182908,Argentinian rock,2,1,???,Rock argentino
-Rels B,0.5604,0.7806,0.5664,0.3267,Latin trap,2,0,???,Reggaeton & trap en español
-Rex Orange County,0.4847,0.5788,0.3547,0.57,International indie & rock,3,0,???,Rock & Indie internacional
-Reydel,0.731166666666667,0.679833333333333,0.616,0.21476666666666697,Argentinian pop,3,1,???,Pop en español
-Rezz,0.677,0.6522,0.22041999999999998,0.034644,EDM & house,3,0,???,Electrónica
-Rita Ora,0.7156,0.6368,0.527,0.18164,International pop,1,0,???,Pop internacional
-San Holo,0.6653,0.519,0.32036,0.20897,EDM & house,3,0,???,Electrónica
-The Hu,0.7006,0.5413,0.3756,0.03395,International indie & rock,3,0,???,Rock & Indie internacional
-The Lumineers,0.5324,0.6196,0.36801999999999996,0.583,International indie & rock,3,0,???,Rock & Indie internacional
-The Strokes,0.6974,0.56,0.7218,0.15950129999999998,International indie & rock,2,0,???,Rock & Indie internacional
-Travis Scott,0.5976,0.7246,0.28055,0.095463,Hip hop & rap,1,0,???,Hip hop & rap
-Trueno,0.7087,0.6749,0.6056,0.41325,Argentinian trap,2,1,???,Trap argentino
-Two Feet,0.4964,0.63,0.3121,0.4252,International indie & rock,1,0,???,Rock & Indie internacional
-Vampire Weekend,0.6134,0.5626,0.612,0.31359000000000004,International indie & rock,2,0,???,Rock & Indie internacional
-Wallows,0.7493,0.5488,0.5216,0.0675163,International indie & rock,2,0,???,Rock & Indie internacional
-WOS,0.8164,0.6757,0.6011,0.35,Argentinian trap,1,1,???,Trap argentino
-YSY A,0.7234,0.7163,0.4772,0.2156,Argentinian trap,3,1,???,Trap argentino
-Yung Beef,0.637,0.7273,0.39971999999999996,0.1266659,Latin trap,2,0,???,Reggaeton & trap en español
-Yungblud,0.757,0.5206,0.3872,0.044157,International indie & rock,1,0,???,Rock & Indie internacional
-Zoe Gotusso,0.35600000000000004,0.5063333333333329,0.5246666666666671,0.6085,Argentinian indie,2,1,???,Indie en español
+day,time,stage,artist,is_argentinian,energy,danceability,valence,acousticness,cluster_name,cluster_name_spanish
+1,1:20 – 2:00,Alternative,Cimafunk,0,0.69,0.82,0.72,0.18,Latin trap,Reggaeton & trap en español
+1,10:30 – 11.30,Alternative,A Day to Remember,0,0.91,0.45,0.45,0.01,International indie & rock,Rock & Indie internacional
+1,12:00 – 1:00,Alternative,Alejo y Valentin,1,0.48,0.51,0.26,0.17,Argentinian indie,Indie en español
+1,2:15 – 2:45,Alternative,Axel Fiks,1,0.52,0.70,0.43,0.22,Argentinian indie,Indie en español
+1,3:15 – 4:00,Alternative,Two Feet,0,0.50,0.63,0.31,0.43,International indie & rock,Rock & Indie internacional
+1,4:30 – 5:15,Alternative,AJR,0,0.64,0.59,0.56,0.17,International indie & rock,Rock & Indie internacional
+1,6:15 – 7:15,Alternative,LP,0,0.64,0.54,0.37,0.24,International indie & rock,Rock & Indie internacional
+1,8:15 – 9:15,Alternative,King Princess,0,0.59,0.59,0.45,0.37,International pop,Pop internacional
+1,1:30 – 2:45,Flow Music XP,Maye,0,0.64,0.61,0.67,0.44,International indie & rock,Rock & Indie internacional
+1,10:30 – 11.45,Flow Music XP,Travis Scott,0,0.60,0.72,0.28,0.10,Hip hop & rap,Hip hop & rap
+1,12:30 – 1:00,Flow Music XP,Lucia Tacchetti,1,0.54,0.65,0.46,0.56,Argentinian indie,Indie en español
+1,3:00 – 3:45,Flow Music XP,J mena,1,0.69,0.81,0.70,0.12,Argentinian pop,Pop en español
+1,4:30 – 5:15,Flow Music XP,Nathy Peluso,1,0.43,0.57,0.36,0.35,Latin trap,Reggaeton & trap en español
+1,6:15 – 7:15,Flow Music XP,DUKI,1,0.68,0.77,0.50,0.30,Argentinian trap,Trap argentino
+1,8:15 – 9:15,Flow Music XP,Brockhampton,0,0.61,0.70,0.60,0.43,Hip hop & rap,Hip hop & rap
+1,1:00 – 1:30,Perry’s,DJ Sky,0,0.88,0.75,0.61,0.05,International indie & rock,Rock & Indie internacional
+1,1:45 – 2:30,Perry’s,Ms Nina,1,0.83,0.72,0.64,0.10,Latin trap,Reggaeton & trap en español
+1,10:30 – 11.30,Perry’s,Madeon,0,0.74,0.48,0.38,0.02,EDM & house,Electrónica
+1,2:45 – 3:30,Perry’s,Dani,0,0.59,0.72,0.44,0.33,Argentinian trap,Trap argentino
+1,3:45 – 4:00,Perry’s,Fuego,0,0.65,0.78,0.48,0.16,Latin trap,Reggaeton & trap en español
+1,4:45 – 5:30,Perry’s,Kaydy Cain,0,0.65,0.77,0.71,0.35,Latin trap,Reggaeton & trap en español
+1,5:45 – 6:45,Perry’s,Boombox Cartel,0,0.84,0.62,0.31,0.10,EDM & house,Electrónica
+1,7:15 – 8:00,Perry’s,Louta,1,0.69,0.72,0.63,0.29,Argentinian indie,Indie en español
+1,8:15 – 9:00,Perry’s,Bizarrap,1,0.65,0.80,0.63,0.29,Argentinian trap,Trap argentino
+1,9:15 – 10:15,Perry’s,Denzel Curry,0,0.66,0.71,0.55,0.17,Hip hop & rap,Hip hop & rap
+1,1:00 – 1:30,Samsung,Feli Colina,1,0.35,0.47,0.29,0.48,Argentinian indie,Indie en español
+1,11:45 – 1:00,Samsung,Martin Garrix,0,0.63,0.53,0.27,0.18,EDM & house,Electrónica
+1,2:15 – 3:00,Samsung,La Delio Valdez,1,0.72,0.68,0.83,0.41,Argentinian rock,Rock argentino
+1,3:45 – 4:30,Samsung,Yungblud,0,0.76,0.52,0.39,0.04,International indie & rock,Rock & Indie internacional
+1,5:15 – 6:15,Samsung,WOS,1,0.82,0.68,0.60,0.35,Argentinian trap,Trap argentino
+1,7:15 – 8:15,Samsung,Rita Ora,0,0.72,0.64,0.53,0.18,International pop,Pop internacional
+1,9:15 – 10:30,Samsung,Los Fabulosos Cadillacs,1,0.76,0.69,0.82,0.16,Argentinian rock,Rock argentino
+2,1:15 – 1:45,Alternative,Girl Ultra,0,0.45,0.74,0.59,0.56,Latin trap,Reggaeton & trap en español
+2,10:30 – 11:30,Alternative,Hayley Kiyoko,0,0.71,0.65,0.48,0.13,International pop,Pop internacional
+2,12:15 - 12:45,Alternative,Paco Leiva,1,0.37,0.48,0.23,0.69,Argentinian indie,Indie en español
+2,2:30 – 3:15,Alternative,Amaia,0,0.43,0.54,0.29,0.59,Argentinian pop,Pop en español
+2,4:00 – 4:45,Alternative,Zoe Gotusso,1,0.36,0.51,0.52,0.61,Argentinian indie,Indie en español
+2,6:00 – 7:00,Alternative,Emmanuel Horvilleur,1,0.63,0.67,0.59,0.33,Argentinian rock,Rock argentino
+2,8:00 – 9:00,Alternative,Kacey Musgraves,0,0.45,0.57,0.37,0.52,International pop,Pop internacional
+2,1:15 – 1:45,Flow Music XP,Las Ligas Menores,1,0.80,0.38,0.54,0.05,Argentinian indie,Indie en español
+2,10:15 – 11:45,Flow Music XP,The Strokes,0,0.70,0.56,0.72,0.16,International indie & rock,Rock & Indie internacional
+2,12:15 – 12:45,Flow Music XP,LIMON,0,0.72,0.52,0.37,0.01,Argentinian indie,Indie en español
+2,2:30 – 3:15,Flow Music XP,Fabiana Cantilo,1,0.56,0.60,0.56,0.38,Argentinian rock,Rock argentino
+2,4:00 – 5:00,Flow Music XP,El Mató a un Policía Motorizado,1,0.62,0.46,0.38,0.12,Argentinian rock,Rock argentino
+2,6:00 – 7:00,Flow Music XP,Charli XCX,0,0.71,0.76,0.51,0.06,International pop,Pop internacional
+2,8:00 – 9:00,Flow Music XP,Vampire Weekend,0,0.61,0.56,0.61,0.31,International indie & rock,Rock & Indie internacional
+2,1:30 – 2:15,Perry’s,Ghetto Kids,0,0.81,0.73,0.56,0.06,Latin trap,Reggaeton & trap en español
+2,10:15 – 11:15,Perry’s,ILLENIUM,0,0.71,0.55,0.34,0.16,EDM & house,Electrónica
+2,12:45 – 1:15,Perry’s,Louly,1,0.47,0.79,0.39,0.38,Argentinian trap,Trap argentino
+2,2:30 – 3:15,Perry’s,D3FAI,0,0.97,0.62,0.20,0.01,EDM & house,Electrónica
+2,3:30 – 4:15,Perry’s,Trueno,1,0.71,0.67,0.61,0.41,Argentinian trap,Trap argentino
+2,4:30 – 5:15,Perry’s,Yung Beef,0,0.64,0.73,0.40,0.13,Latin trap,Reggaeton & trap en español
+2,5:30 – 6:15,Perry’s,Paloma Mami,0,0.68,0.77,0.45,0.24,Latin trap,Reggaeton & trap en español
+2,6:30 – 7:30,Perry’s,Rels B,0,0.56,0.78,0.57,0.33,Latin trap,Reggaeton & trap en español
+2,7:45 – 8:45,Perry’s,Jaden Smith,0,0.73,0.56,0.29,0.17,Hip hop & rap,Hip hop & rap
+2,9:00 – 10:00,Perry’s,R3HAB,0,0.76,0.64,0.48,0.20,EDM & house,Electrónica
+2,1:45 – 2:30,Samsung,Wallows,0,0.75,0.55,0.52,0.07,International indie & rock,Rock & Indie internacional
+2,11:45 – 1:00,Samsung,Armin Van Buuren,0,0.90,0.58,0.25,0.02,EDM & house,Electrónica
+2,12:45 – 1:15,Samsung,Ainda,1,0.28,0.60,0.40,0.75,Argentinian indie,Indie en español
+2,3:15 – 4:00,Samsung,Kali Uchis,0,0.65,0.65,0.55,0.27,Art pop & R&B,R&B
+2,5:00 – 6:00,Samsung,Litto Nebbia,1,0.49,0.49,0.42,0.62,Argentinian rock,Rock argentino
+2,7:00 – 8:00,Samsung,Ratones Paranoicos,1,0.83,0.64,0.73,0.18,Argentinian rock,Rock argentino
+2,9:00 – 10:15,Samsung,Gwen Stefani,0,0.81,0.71,0.70,0.10,International pop,Pop internacional
+3,1:15 – 2:00,Alternative,Elsa y Elmar,0,0.51,0.72,0.50,0.13,Argentinian indie,Indie en español
+3,12:00 – 12:45,Alternative,Miranda Johansen,1,0.44,0.55,0.24,0.29,Argentinian indie,Indie en español
+3,2:20 – 3:00,Alternative,Natalie Perez,1,0.64,0.54,0.67,0.39,Argentinian pop,Pop en español
+3,3:30 – 4:15,Alternative,Masego,0,0.54,0.73,0.44,0.40,Art pop & R&B,R&B
+3,4:45 – 5:45,Alternative,MIKA,0,0.71,0.66,0.62,0.14,International pop,Pop internacional
+3,6:45 – 7:45,Alternative,Rex Orange County,0,0.48,0.58,0.35,0.57,International indie & rock,Rock & Indie internacional
+3,9:00 – 10:15,Alternative,James Blake,0,0.45,0.60,0.20,0.58,Art pop & R&B,R&B
+3,1:15 – 2:00,Flow Music XP,The Hu,0,0.70,0.54,0.38,0.03,International indie & rock,Rock & Indie internacional
+3,12:15 – 12:45,Flow Music XP,El Buen Salvaje,1,0.85,0.52,0.41,0.04,Argentinian indie,Indie en español
+3,2:45 – 3:45,Flow Music XP,Perry Farrell’s Kind Heaven Orchestra,0,0.80,0.56,0.50,0.05,International indie & rock,Rock & Indie internacional
+3,4:45 – 5:45,Flow Music XP,Airbag,1,0.78,0.44,0.41,0.03,Argentinian rock,Rock argentino
+3,6:45 – 7:45,Flow Music XP,Cage the Elephant,0,0.79,0.57,0.59,0.06,International indie & rock,Rock & Indie internacional
+3,9:00 – 11:30,Flow Music XP,Guns N’ Roses,0,0.76,0.38,0.36,0.09,International indie & rock,Rock & Indie internacional
+3,1:15 – 2:00,Perry’s,DABOW,1,0.79,0.68,0.27,0.12,EDM & house,Electrónica
+3,10:15 – 11:30,Perry’s,Rezz,0,0.68,0.65,0.22,0.03,EDM & house,Electrónica
+3,12:30 – 1:00,Perry’s,Reydel,1,0.73,0.68,0.62,0.21,Argentinian pop,Pop en español
+3,2:15 – 3:00,Perry’s,Metro Live,1,0.77,0.61,0.35,0.10,EDM & house,Electrónica
+3,3:15 – 4:00,Perry’s,Emilia,1,0.73,0.80,0.73,0.15,Argentinian pop,Pop en español
+3,4:15 – 5:15,Perry’s,Goldfish,0,0.74,0.67,0.47,0.04,EDM & house,Electrónica
+3,5:30 – 6:30,Perry’s,YSY A,1,0.72,0.72,0.48,0.22,Argentinian trap,Trap argentino
+3,6:45 – 7:45,Perry’s,Pabllo Vittar,0,0.77,0.74,0.62,0.12,International pop,Pop internacional
+3,8:00 – 9:00,Perry’s,San Holo,0,0.67,0.52,0.32,0.21,EDM & house,Electrónica
+3,9:15 – 10:15,Perry’s,Chris Lake,0,0.89,0.78,0.70,0.01,EDM & house,Electrónica
+3,11:30 -12:45,Samsung,Alan Walker,0,0.68,0.57,0.35,0.21,EDM & house,Electrónica
+3,12:45 – 1:15,Samsung,Florian,0,0.47,0.69,0.64,0.27,Argentinian indie,Indie en español
+3,2:00 – 2:45,Samsung,Idles,0,0.91,0.37,0.32,0.00,International indie & rock,Rock & Indie internacional
+3,3:45 – 4:45,Samsung,Lauv,0,0.52,0.70,0.41,0.31,International pop,Pop internacional
+3,5:45 – 6:45,Samsung,The Lumineers,0,0.53,0.62,0.37,0.58,International indie & rock,Rock & Indie internacional
+3,7:45 – 9:00,Samsung,Lana del Rey,0,0.42,0.46,0.23,0.60,International pop,Pop internacional

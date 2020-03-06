@@ -53,7 +53,8 @@ class Recommender:
             if self.verbosity_:
                 print('Filling slot ', i)
             roadmap.append(self.fill_slot(i))
-        return self.data_.loc[roadmap, ['day', 'time', 'is_argentinian', 'cluster_name_spanish',
+        return self.data_.loc[roadmap, ['day', 'time', 'stage',
+                                        'is_argentinian', 'cluster_name_spanish',
                                         'energy', 'danceability', 'valence', 'acousticness']].reset_index().to_dict(orient='rectord')
 
     def choose_among_options(self, options):
