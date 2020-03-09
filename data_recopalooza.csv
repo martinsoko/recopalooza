@@ -1,5 +1,5 @@
 day,time,stage,artist,is_argentinian,energy,danceability,valence,acousticness,cluster_name,cluster_name_spanish
-1,1:20 – 2:00,Alternative,Cimafunk,0,0.69,0.82,0.72,0.18,Latin trap,Reggaeton & trap en español
+1,1:20 – 2:00,Alternative,Cimafunk,0,0.69,0.82,0.72,0.18,Latin trap,Reggaetón & trap en español
 1,10:30 – 11.30,Alternative,A Day to Remember,0,0.91,0.45,0.45,0.01,International indie & rock,Rock & Indie internacional
 1,12:30 – 1:00,Alternative,Alejo y Valentin,1,0.48,0.51,0.26,0.17,Argentinian indie,Indie en español
 1,2:15 – 2:45,Alternative,Axel Fiks,1,0.52,0.7,0.43,0.22,Argentinian indie,Indie en español
@@ -11,15 +11,15 @@ day,time,stage,artist,is_argentinian,energy,danceability,valence,acousticness,cl
 1,10:30 – 11.45,Flow Music XP,Travis Scott,0,0.6,0.72,0.28,0.1,Hip hop & rap,Hip hop & rap
 1,12:30 – 1:00,Flow Music XP,Lucia Tacchetti,1,0.54,0.65,0.46,0.56,Argentinian indie,Indie en español
 1,3:00 – 3:45,Flow Music XP,J mena,1,0.69,0.81,0.7,0.12,Argentinian pop,Pop en español
-1,4:30 – 5:15,Flow Music XP,Nathy Peluso,1,0.43,0.57,0.36,0.35,Latin trap,Reggaeton & trap en español
+1,4:30 – 5:15,Flow Music XP,Nathy Peluso,1,0.43,0.57,0.36,0.35,Latin trap,Reggaetón & trap en español
 1,6:15 – 7:15,Flow Music XP,DUKI,1,0.68,0.77,0.5,0.3,Argentinian trap,Trap argentino
 1,8:15 – 9:15,Flow Music XP,Brockhampton,0,0.61,0.7,0.6,0.43,Hip hop & rap,Hip hop & rap
-1,1:00 – 1:30,Perry’s,DJ Sky,0,0.88,0.75,0.61,0.05,International indie & rock,Rock & Indie internacional
-1,1:45 – 2:30,Perry’s,Ms Nina,1,0.83,0.72,0.64,0.1,Latin trap,Reggaeton & trap en español
+1,1:00 – 1:30,Perry’s,DJ Sky,0,0.88,0.75,0.61,0.05,International indie & rock,Electrónica
+1,1:45 – 2:30,Perry’s,Ms Nina,1,0.83,0.72,0.64,0.1,Latin trap,Reggaetón & trap en español
 1,10:30 – 11.30,Perry’s,Madeon,0,0.74,0.48,0.38,0.02,EDM & house,Electrónica
 1,2:45 – 3:30,Perry’s,Dani,0,0.59,0.72,0.44,0.33,Argentinian trap,Trap argentino
-1,3:45 – 4:30,Perry’s,Fuego,0,0.65,0.78,0.48,0.16,Latin trap,Reggaeton & trap en español
-1,4:45 – 5:30,Perry’s,Kaydy Cain,0,0.65,0.77,0.71,0.35,Latin trap,Reggaeton & trap en español
+1,3:45 – 4:30,Perry’s,Fuego,0,0.65,0.78,0.48,0.16,Latin trap,Reggaetón & trap en español
+1,4:45 – 5:30,Perry’s,Kaydy Cain,0,0.65,0.77,0.71,0.35,Latin trap,Reggaetón & trap en español
 1,5:45 – 6:45,Perry’s,Boombox Cartel,0,0.84,0.62,0.31,0.1,EDM & house,Electrónica
 1,7:15 – 8:00,Perry’s,Louta,1,0.69,0.72,0.63,0.29,Argentinian indie,Indie en español
 1,8:15 – 9:00,Perry’s,Bizarrap,1,0.65,0.8,0.63,0.29,Argentinian trap,Trap argentino
@@ -31,7 +31,7 @@ day,time,stage,artist,is_argentinian,energy,danceability,valence,acousticness,cl
 1,5:15 – 6:15,Samsung,WOS,1,0.82,0.68,0.6,0.35,Argentinian trap,Trap argentino
 1,7:15 – 8:15,Samsung,Rita Ora,0,0.72,0.64,0.53,0.18,International pop,Pop internacional
 1,9:15 – 10:30,Samsung,Los Fabulosos Cadillacs,1,0.76,0.69,0.82,0.16,Argentinian rock,Rock argentino
-2,1:15 – 1:45,Alternative,Girl Ultra,0,0.45,0.74,0.59,0.56,Latin trap,Reggaeton & trap en español
+2,1:15 – 1:45,Alternative,Girl Ultra,0,0.45,0.74,0.59,0.56,Latin trap,Reggaetón & trap en español
 2,10:30 – 11:30,Alternative,Hayley Kiyoko,0,0.71,0.65,0.48,0.13,International pop,Pop internacional
 2,12:15 - 12:45,Alternative,Paco Leiva,1,0.37,0.48,0.23,0.69,Argentinian indie,Indie en español
 2,2:30 – 3:15,Alternative,Amaia,0,0.43,0.54,0.29,0.59,Argentinian pop,Pop en español
@@ -45,14 +45,14 @@ day,time,stage,artist,is_argentinian,energy,danceability,valence,acousticness,cl
 2,4:00 – 5:00,Flow Music XP,El Mató a un Policía Motorizado,1,0.62,0.46,0.38,0.12,Argentinian rock,Rock argentino
 2,6:00 – 7:00,Flow Music XP,Charli XCX,0,0.71,0.76,0.51,0.06,International pop,Pop internacional
 2,8:00 – 9:00,Flow Music XP,Vampire Weekend,0,0.61,0.56,0.61,0.31,International indie & rock,Rock & Indie internacional
-2,1:30 – 2:15,Perry’s,Ghetto Kids,0,0.81,0.73,0.56,0.06,Latin trap,Reggaeton & trap en español
+2,1:30 – 2:15,Perry’s,Ghetto Kids,0,0.81,0.73,0.56,0.06,Latin trap,Reggaetón & trap en español
 2,10:15 – 11:15,Perry’s,ILLENIUM,0,0.71,0.55,0.34,0.16,EDM & house,Electrónica
 2,12:45 – 1:15,Perry’s,Louly,1,0.47,0.79,0.39,0.38,Argentinian trap,Trap argentino
 2,2:30 – 3:15,Perry’s,D3FAI,0,0.97,0.62,0.2,0.01,EDM & house,Electrónica
 2,3:30 – 4:15,Perry’s,Trueno,1,0.71,0.67,0.61,0.41,Argentinian trap,Trap argentino
-2,4:30 – 5:15,Perry’s,Yung Beef,0,0.64,0.73,0.4,0.13,Latin trap,Reggaeton & trap en español
-2,5:30 – 6:15,Perry’s,Paloma Mami,0,0.68,0.77,0.45,0.24,Latin trap,Reggaeton & trap en español
-2,6:30 – 7:30,Perry’s,Rels B,0,0.56,0.78,0.57,0.33,Latin trap,Reggaeton & trap en español
+2,4:30 – 5:15,Perry’s,Yung Beef,0,0.64,0.73,0.4,0.13,Latin trap,Reggaetón & trap en español
+2,5:30 – 6:15,Perry’s,Paloma Mami,0,0.68,0.77,0.45,0.24,Latin trap,Reggaetón & trap en español
+2,6:30 – 7:30,Perry’s,Rels B,0,0.56,0.78,0.57,0.33,Latin trap,Reggaetón & trap en español
 2,7:45 – 8:45,Perry’s,Jaden Smith,0,0.73,0.56,0.29,0.17,Hip hop & rap,Hip hop & rap
 2,9:00 – 10:00,Perry’s,R3HAB,0,0.76,0.64,0.48,0.2,EDM & house,Electrónica
 2,1:45 – 2:30,Samsung,Wallows,0,0.75,0.55,0.52,0.07,International indie & rock,Rock & Indie internacional
